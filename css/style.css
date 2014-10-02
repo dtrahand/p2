@@ -1,36 +1,58 @@
 h2 {
-    color: #4863a0; 
+    color: #00BFFF;  /* light blue */
     font-family: Helvetica ,Arial,sans-serif;
-    font-size: large;
+    font-size: 30px;
     text-align: center;
+    font-weight: bold;
 }
 
 body {
+    width: 90%;
+    padding-left: 5%;
     font-family: Helvetica ,Arial,sans-serif;
-/*    font-size: 12px;*/
-}
-img {
-/*    align: center;*/
-    text-align: center;
-}
-td.box {
-    align:center;
-    border: solid;
-    border-color: #4863A0;
-    padding: 5px;
-    border-radius: 6px;
-    width: 30%;
-    padding: 15px;
-    margin: 15 0px;
+    font-size: medium;
 }
 
-.mystyle {
-color: blue;
+/*Format the two blue cells: */
+td.box {
+    border: solid;
+    border-color: #00BFFF; /* light blue */
+    border-radius: 6px;
+    width: 30%;
+    padding: 20px;
+}
+
+/* Overwrite the bootstrap dropdown menu which was set to 100% and takine the entire cell width:*/
+.form-control {
+    width: auto;
+}
+
+/*Overwrite the bootstrap submit button size which was too small:*/
+.btn {
+    font-size: medium;
 }
 
 /*Format the answer*/
 .answer {
-    font-size: medium;
+    font-size: large;
     color: blue;
     text-align: center;
+    font-weight: 400;
+    background: yellow;
+    border-color: #74DF00; /* light green */
+    border-style: solid;
+    border-radius: 6px;
+    border-width: 5px;
+}
+
+/*Center the image: */
+.centerImage {
+    margin-top: 20px;
+    text-align: center;
+}
+/*Footer style: */
+.footer {
+    width: 100%;
+    color: yellow; /* light blue */
+    background-color: #74DF00;  /* light green */
 }
