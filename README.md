@@ -5,7 +5,7 @@
 see [Project 2 live URL](http://p2.delphinetrahand.me/)
 
 ## Demo information: 
-Jing screencast demo link: 
+Jing screencast demo link: http://screencast.com/t/kM5I84XC
 
 ----
 ## Any details the instructor or TA needs to know:
