@@ -6,27 +6,26 @@
 <td class="box">
 <form method="POST" action="index.php">
 
-    <label for="count">Number of words: </label>
+    <label>Number of words: </label>
     <select name="count" class="form-control input-lg">
     <option value="1"> 1 </option>
     <option value="2"> 2 </option>
     <option value="3"> 3 </option>
     <option value="4"> 4 </option>
-    <option value="5"> 5 </option>
-    <option value="6"> 6 </option>
+    <option value="5"> 5 </option>ption value="6"> 6 </option>
     <option value="7"> 7 </option>
     <option value="8"> 8 </option>
     <option value="9"> 9 </option>
 </select><br />
 
-    <label for="uppercase">First letter of each word as Uppercase?</label>
+    <label>First letter of each word as Uppercase?</label>
     <input type="checkbox" name="uppercase" value="checkbox" <?php echo ($uppercase) ? 'checked="checked"' : '' ; ?>/><br />
 <!--The last part is to output the last choice of the user-->
 
-    <label for="symbol">Include a symbol?</label>
+    <label>Include a symbol?</label>
     <input type="checkbox" name="symbol" value="symbol" <?php echo ($symbol) ? 'checked="checked"' : '' ; ?>/><br />
 
-    <label for="number">Include a number?</label>
+    <label>Include a number?</label>
     <input type="checkbox" name="number" value="number" <?php echo ($number) ? 'checked="checked"' : '' ; ?>/><br /><br />
 
     <!-- SUBMIT BUTTON-->
