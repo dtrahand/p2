@@ -11,6 +11,7 @@ if (($_POST['count'])>0) {
 else { 
         $count = 1;  // setting default number of words to 1
     }
+
 //UPPERCASE?
 if (isset($_POST['uppercase'])) {
     $uppercase = true;

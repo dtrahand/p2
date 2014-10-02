@@ -1,7 +1,6 @@
 <head>
       <title>P2</title>
       <meta charset="utf-8">
-      <meta name="description" content="Demo project">
       
 <!--      BOOTSTRAP CDN -->
 <!-- CSS -->
